@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(170, 158, 158);
+    margin: 8rem;
+}
+input{
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    background-color: rgb(255, 252, 252);
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgb(0,0,0);
+}
+
+button{ 
+    display: block;
+    background-color: rgb(38, 24, 120);
+    font: inherit;
+    margin: 3px;
+    color: rgb(155, 26, 80);
+    padding: 0.5rem 1.5rem;
+    border-radius: 2px;
+    
+
+}
+.from-control-inline{
+display: flex;
+}
+.from-control-inline input{
+    width: auto;
+}
